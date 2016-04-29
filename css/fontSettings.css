@@ -1,0 +1,33 @@
+.textContainer h3{
+	font-family:'Signika';
+	font-weight: 300;
+	font-size: 27px;
+}
+.textContainer > h3:nth-child(1){
+	font-family:'Signika';
+	font-weight: 400;
+	font-size: 37px;
+}
+
+#about h2 {
+	font-family: 'Signika';
+	font-weight: 400;
+	font-size: 37px;
+}
+#about p {
+	font-family:'Signika';
+	font-weight: 300;
+	font-size: 20px;
+}
+#contact h2{
+	font-family:'Signika';
+	font-weight: 400;
+}
+#page-top > header button,#page-top > header input {
+	font-family:'Signika';
+	font-weight: 400;
+}
+.blurp{
+	font-family:'Signika';
+	font-weight: 300;
+}

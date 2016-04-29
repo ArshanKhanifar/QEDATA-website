@@ -1,0 +1,132 @@
+.about{ 
+	background-color: white;
+}
+.about #logo{
+	height: 330px;
+	margin: auto;
+}
+section{
+	position: relative;
+	padding: 10px 0 ;
+}
+
+section q{
+	color:#0B5394;
+}
+section ul{
+	padding-left:25px; 
+}
+section li{
+	list-style: disc;
+	margin-left: 0;
+	padding-left: 0;
+	color:#3C78D8;
+	font-size: 17px;
+}
+
+section li:before{
+	content:'';
+}
+
+.sectionLogo{
+	height: 50px;
+	position: absolute;
+	top:3px;
+	right: 21px;
+}
+.footerSection{
+	margin-top:30px
+}
+
+.footerSection div{
+	height: 9px; 
+}
+.footerSection div:nth-child(1){
+	background-color: #00FFFF;
+}
+.footerSection div:nth-child(2){
+	background-color: #3C78D8;
+}
+.footerSection div:nth-child(3){
+	background-color: #073763;
+}
+.footerSection div:nth-child(4){
+	background-color: #000000;
+}
+.navbar-default .nav > li>a, .navbar-default .nav>li>a:focus {
+	color: rgba(0, 0, 0, 0.7);
+}
+.navbar-default .navbar-header .navbar-brand{
+	color: rgba(0, 0, 0, 0.7);
+}
+h1, h2, h3, h4,h5, h6{
+	font-family: 'Signika';
+	font-weight: 400;
+	color:#1155CC;
+	line-height: 1.2;
+}
+.text-faded{
+	color:rgba(17,85,204,0.7);
+}
+
+
+#theSolution h3{
+	color:#3C78D8;
+}
+#theSolution .text-center{
+	color:black;
+}
+#ourVision strong{
+	font-size:24px;
+}
+#ourVision h5:nth-child(3){
+	color:#0B5394;
+}
+#ourVision h5:nth-child(4){
+	color:black;
+}
+
+#financeTeam span{
+	color:#FF4081;
+}
+#financeTeam li{
+	color:#666666;
+}
+
+@media (min-width: 992px) {
+	.footerSection div{
+		display: none;
+	}
+	.footerSection{
+		border-bottom: 1px #3C78D8 solid;
+		width: 80%;
+		margin: auto;
+		margin-top: 40px; 
+		margin-bottom: 50px;
+	}
+}
+#technology span{
+	color:#1C4587;
+	display: inline-block;
+	margin-left: 15px;
+}
+#technology h5:nth-child(1),#technology h5:nth-child(4){
+	color:black;
+}
+
+#digitalTransformation h3:nth-child(1){
+	color:black;
+}
+#future h4{
+	color:black;
+
+}
+#configure h4{
+	color:black;
+}
+
+
+
+
+
+

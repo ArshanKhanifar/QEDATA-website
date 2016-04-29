@@ -1,0 +1,32 @@
+.blurpContainer{
+    background: rgba(0,0,0,0.5);
+    height: 140px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.blurpContainer .blurp{
+    font-size: 40px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+.blurpContainer .blurp.center{
+    transform: translate(0);
+    color: white;
+}
+.blurpContainer .blurp.right{
+	transform: translate(100px);
+	color:rgba(255,255,255,0);
+}
+.blurpContainer .blurp.left{
+	transform: translate(-100px);
+    transition: all 0.2s;
+	color:rgba(255,255,255,0);
+}
+
+.blurpContainer.blurpFixed{
+    position: fixed;
+    bottom:0;
+}

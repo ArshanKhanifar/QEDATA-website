@@ -1,0 +1,125 @@
+.form{
+	width: 100%;
+	height: auto;
+	background: rgba(45, 111, 162, 0.35);
+	display: none;
+	float: left;
+	position: absolute;
+}
+
+.form .closeButton{
+	background: rgb(0, 26, 26);
+	display: none;
+	height: 100px;
+}
+.form .mdl-textfield__label{
+	font-size: 23px;
+	color:#14ACB4;
+
+}
+.form .mdl-textfield__input{
+	border-bottom-width:1px;
+	border-bottom-color:#14ACB4;
+	padding-bottom: 10px;
+	color:white;
+}
+.form .mdl-textfield{
+	width:400px;
+}
+
+.form .mdl-textfield__label:after{
+	background-color: #18C3A4 ;
+	padding-top: 1px;
+	margin-bottom: -6px;
+}
+
+.form .mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.form .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.form .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+	color:#14ACB4;
+}
+
+
+.form form{
+	display: inline-block;
+}
+
+.mdl-cell--6-col, .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop{
+	text-align: center;
+}
+.form .mdl-button--raised{
+	background-color: #14ACB4;
+	color:white;
+
+}
+
+
+.form .textContainer h3{
+	display: block;
+	margin:auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	color: white;
+	overflow: hidden;
+}
+.form .textContainer{
+	text-align: center;
+}
+
+.form #qedLogo{
+	display: block;
+	margin-left: 30.7%;
+	width: 37.4%;
+}
+.form .textField{
+	margin-left: 30px
+
+}
+
+.form .theButton{margin: auto;display: block;}
+a{
+	color:#001A1A;
+}
+
+
+@media(max-width: 1200px) {
+    .form{
+        top: 50px;
+    }
+    .form #qedLogo{
+    	margin-top: 0.3%;
+    	margin-left: 31.2%;
+    	width: 38.2%;
+    }
+}
+
+@media(max-width: 768px) {
+    .form{
+        top: 50px;
+    }
+    .form #qedLogo{
+    	margin-top: -1.1%;
+    	margin-left: 32%;
+    	width: 34.2%;
+    }
+
+}
+@media(max-width: 446px) {
+    .form{
+        top: 47px;
+    }
+    .form #qedLogo{
+    	margin-top: -2.1%;
+    	margin-left: 32%;
+    	width: 34.2%;
+    }
+    .form form{
+    	width: 100%;
+    }
+    .form .mdl-textfield{
+		width:100%;
+	}
+}
+
+

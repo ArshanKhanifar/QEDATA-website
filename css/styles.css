@@ -1,0 +1,217 @@
+#animation{
+	display:none;
+	position: absolute;
+}
+
+.blur{
+	transition: all 0.7s;
+	-webkit-filter: blur(9.2px);
+	-moz-filter: blur(9.2px);
+	-o-filter: blur(9.2px);
+	-ms-filter: blur(9.2px);
+	filter: blur(9.2px);
+}
+
+
+
+svg {
+	margin: auto;
+}
+
+
+.cls-1,
+.cls-20,
+.cls-21,
+.cls-34,
+.cls-35,
+.cls-36,
+.cls-45{fill:none;}
+.cls-2{fill:#dfd7cc;}
+.cls-3{fill:#655948;}
+.cls-4{fill:#3f2f1a;}
+.cls-5{fill:#51422f;}
+.cls-6{fill:#aab0b6;}
+.cls-7{fill:#6898bf;}
+.cls-8{fill:#666;}
+.cls-9{fill:#999;}
+.cls-10{fill:#4d4d4d;}
+.cls-11{fill:gray;}
+.cls-12{fill:url(#radial-gradient);}
+.starGroup1{fill:url(#starGroupRadial1);}
+.starGroup2{fill:url(#starGroupRadial2);}
+.starGroup3{fill:url(#starGroupRadial3);}
+.starGroup4{fill:url(#starGroupRadial4);}
+.cls-13,
+.cls-15{fill:#6c6862;}
+.cls-13,
+.cls-14{opacity:0.69;mix-blend-mode:multiply;}
+.cls-16{fill:#677a8a;}
+.cls-17{fill:#354e63;}
+.cls-19{fill:#0b5f63;stroke-width:3px;}
+.cls-20{stroke:#fff;}
+.cls-20,
+.cls-21,
+.cls-28,
+.cls-30,
+.cls-31,
+.cls-32,
+.cls-33,
+.cls-34,
+.cls-35,
+.cls-36,
+.cls-45,
+.cls-46{stroke-miterlimit:10;}
+.cls-21{stroke:#f2f2f2;}
+.cls-22{fill:#fff;}
+.cls-23{fill:#002036;}
+.cls-24,
+.cls-28{opacity:0.5;}
+.cls-25{fill:#102838;}
+.cls-26{fill:#3f3a33;}
+.cls-27{fill:#0f0900;}
+.cls-28,
+.cls-30,
+.cls-31,
+.cls-32,
+.cls-33,
+.cls-34,
+.cls-35,
+.cls-36,
+.cls-46{stroke:#000;}
+.polesData-46{}
+.cls-29{fill:#02223c;}
+.cls-30,
+.cls-31,
+.cls-32,
+.cls-33{fill:#0096af;}
+.cls-30{stroke-width:5px;}
+.cls-31,
+.cls-45{stroke-width:2px;}
+.cls-32{stroke-width:3px;}
+.cls-33,
+.cls-36{stroke-width:4px;}
+.cls-35{stroke-width:6px;}
+.cls-37{clip-path:url(#clip-path);}
+.cls-38{clip-path:url(#clip-path-2);}
+.cls-39{clip-path:url(#clip-path-3);}
+.cls-40{clip-path:url(#clip-path-4);}
+.cls-41{fill:#b3b3b3;}
+.cls-42{opacity:0.65;}
+.cls-43{fill:aqua;}
+.cls-43,
+.cls-44{opacity:0;}
+.cls-45{stroke:black;}
+.dataWires{stroke:#40bfd5;stroke-miterlimit:10;fill:none;stroke-width:4px;}
+.dataObjectRoads{stroke-width:3px;}
+.backgroundGradient{
+	fill:url(#backgroundGradient);
+}
+
+.newRoad{
+	fill:#99b9d4;
+}
+.newRoadNight{
+	transition:all 0.9s;
+	fill: #102838;
+}
+
+.secondRoad{
+	fill:#6898BF;
+}
+.secondRoadNight{
+	transition:all 0.9s;
+	fill:#001726;
+}
+
+
+.buildingsBehind{
+	fill:#7E9CB1;
+}
+.buildingsBehindNight{
+	transition:all 0.9s;
+	fill:#002036;
+}
+.buildingsFront{
+	fill:#847A6C;
+}
+.buildingsFrontNight{
+	transition:all 0.9s;
+	fill:#002036;
+}
+.roadBackground{
+	fill:#4d4d4d;
+}
+.roadBackgroundNight{
+	transition:all 0.9s;
+	fill:#02223c;
+}
+
+.buildingsPrimary{
+	fill: #666;
+}
+
+.buildingsPrimaryNight{
+	transition:all 0.9s;
+	fill: #102838;
+}
+
+.buildingsSecondary{
+	fill:#677A8A;
+}
+.buildingsSecondaryNight{
+	fill:#3F3A33;
+}
+
+.buildingsThird{
+	fill:#E5FCF5;
+}
+.buildingsThirdNight{
+	transition:all 0.9s;
+	fill:#0f0900;
+}
+
+
+.roadDataMask{
+	transition:all 0.9s;
+	fill:#02223C;
+}
+.windows{
+	fill:#9ABAD5;
+}
+.windowsNight{
+	transition:all 0.9s linear;
+	fill:#black;
+}
+
+.demWindows{
+	stroke:#9ABAD5;
+}
+.demWindowsNight{
+	transition:all 0.9s linear;
+	stroke:#black;
+}
+
+/* remove the class from the windowsNight so you can animate the color!  */
+.dataObjectBase{
+	fill: aqua;
+}
+
+.building06{
+}
+
+/* Dem Clouds Colors */
+#cloud_pattern path:nth-child(6),#cloud_pattern path:nth-child(4){
+	fill:rgb(255,234,202);
+}
+#cloud_pattern path:nth-child(5){
+	fill:rgb(255,212,153);
+}
+#cloud_pattern path:nth-child(3){
+	fill:rgb(255,191,102);
+}
+#cloud_pattern path:nth-child(2){
+	fill:rgb(255,148,0);
+}
+#cloud_pattern path:nth-child(1){
+	fill:rgb(212, 123, 0);
+}
